@@ -13,8 +13,9 @@ source "https://rubygems.org"
 
 # To upgrade, run `bundle update`.
 
-gem "jekyll"
-gem "minimal-mistakes-jekyll", :git => "https://github.com/niklasjang/niklasjang.github.io.git", :tag => "4.16.0"
+gem "jekyll", :git => "https://github.com/jekyll/jekyll.git"
+gem "minimal-mistakes-jekyll"
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
@@ -29,5 +30,6 @@ gem "minimal-mistakes-jekyll", :git => "https://github.com/niklasjang/niklasjang
 group :jekyll_plugins do
   gem 'jekyll-archives'
   gem 'jekyll-algolia'
+  gem 'tzinfo'
   gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 end
