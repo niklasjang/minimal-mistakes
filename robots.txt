@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://niklasjang.github.io/sitemap.xml
