@@ -1,0 +1,11 @@
+Niklas Jang:
+  name        : "Niklas Jang"
+  bio         : "Make the world better place."
+  avatar      : "/assets/images/niklasjang.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:niklasjang@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url:  "https://niklasjang.github.io"

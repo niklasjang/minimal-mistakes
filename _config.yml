@@ -15,7 +15,7 @@ remote_theme             : "mmistakes/minimal-mistakes@4.16.0" #You may also opt
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : ko-KR #"en-US"
+locale                   : "en-US" # "ko-KR"
 title                    : "Niklas Jang's Blog" #"Site Title"
 title_separator          : "|"
 name                     : "Niklas Jang"
