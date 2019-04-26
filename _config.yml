@@ -10,8 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+# theme                    : "minimal-mistakes-jekyll"
+remote_theme             : "mmistakes/minimal-mistakes@4.16.0" #You may also optionally specify a branch, tag, or commit to use by appending an @ and the Git ref (e.g., mmistakes/minimal-mistakes@4.9.0 or mmistakes/minimal-mistakes@bbf3cbc5fd64a3e1885f3f99eb90ba92af84063d). This is useful when rolling back to older versions of the theme. If you don’t specify a Git ref, the latest on master will be used.
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -290,6 +290,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
