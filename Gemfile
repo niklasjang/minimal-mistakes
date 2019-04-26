@@ -27,4 +27,6 @@ gem "minimal-mistakes-jekyll", :git => "https://github.com/niklasjang/niklasjang
 #
 # If you have any other plugins, put them here!
 group :jekyll_plugins do
+  gem 'jekyll-archives'
+  gem "jekyll-algolia"
 end
